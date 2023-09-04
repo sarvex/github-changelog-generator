@@ -41,7 +41,7 @@ GEM
       async
     async-pool (0.4.0)
       async (>= 1.25)
-    backports (3.18.2)
+    backports (3.24.1)
     bump (0.10.0)
     childprocess (4.1.0)
     codeclimate-test-reporter (1.0.7)
@@ -151,7 +151,6 @@ GEM
     simplecov-html (0.12.3)
     timers (4.3.5)
     traces (0.11.1)
-    tty-color (0.5.2)
     tzinfo (2.0.6)
       concurrent-ruby (~> 1.0)
     unicode-display_width (2.4.2)
@@ -160,11 +159,10 @@ GEM
       addressable (>= 2.8.0)
       crack (>= 0.3.2)
       hashdiff (>= 0.4.0, < 2.0.0)
-    yard (0.9.25)
-    yard-junk (0.0.7)
-      backports
+    yard (0.9.34)
+    yard-junk (0.0.9)
+      backports (>= 3.18)
       rainbow
-      tty-color
       yard
     zeitwerk (2.6.11)
 
