@@ -28,10 +28,10 @@ workflows:
     jobs:
       - rspec:
           name: Ruby 2.5
-          image: cimg/ruby:2.5
+          image: cimg/ruby:2.7
       - rspec:
           name: Ruby 2.6
-          image: cimg/ruby:2.6
+          image: cimg/ruby:2.7
       - rspec:
           name: Ruby 2.7
           image: cimg/ruby:2.7
